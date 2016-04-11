@@ -1,0 +1,82 @@
+{
+   "BagIt-Profile-Info":{
+      "BagIt-Profile-Identifier":"http://digital.lib.niu.edu/bagitprofiles/niu-profile-v1.0.json",
+      "Source-Organization":"Northern Illinois University Libraries",
+      "Contact-Name":"Matthew Short",
+      "Contact-Email":"mshort@niu.edu",
+      "External-Description":"BagIt profile for packages from the NIU Libraries.",
+      "Version":"1.0"
+   },
+   "Bag-Info":{
+      "Source-Organization":{
+         "required":true,
+         "values":[
+            "Northern Illinois University Libraries"
+         ]
+      },
+      "Organization-Address":{
+         "required":true,
+         "values":[
+            "Founders Memorial Library, Northern Illinois University, DeKalb, IL, 60115, USA"
+         ]
+      },
+      "Contact-Name":{
+         "required":true,
+         "values":[
+            "Matthew Short",
+            "Joseph Thomas"
+         ]
+      },
+      "Contact-Phone":{
+         "required":false
+      },
+      "Contact-Email":{
+         "required":true,
+          "values":[
+            "mshort@niu.edu",
+            "joe@niu.edu"
+         ]
+      },
+      "External-Description":{
+         "required":false
+      },
+      "External-Identifier":{
+         "required":false
+      },
+      "Bag-Size":{
+         "required":false
+      },
+      "Bag-Group-Identifier":{
+         "required":false
+      },
+      "Bag-Count":{
+         "required":false
+      },
+      "Internal-Sender-Identifier":{
+         "required":false
+      },
+      "Internal-Sender-Description":{
+         "required":false
+      },
+      "Bagging-Date":{
+         "required":true
+      },
+      "Payload-Oxum":{
+         "required":true
+      }
+   },
+   "Manifests-Required":[
+      "sha1"
+   ],
+   "Allow-Fetch.txt":false,
+   "Serialization":"required",
+   "Accept-Serialization":[
+      "application/zip"
+   ],
+   "Tag-Manifests-Required":[
+     "sha1"
+   ],
+   "Accept-BagIt-Version":[
+      "0.96"
+   ]
+}
